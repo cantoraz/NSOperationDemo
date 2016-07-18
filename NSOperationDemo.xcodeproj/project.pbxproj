@@ -15,6 +15,11 @@
 		667A10181D376F6900E65694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667A10161D376F6900E65694 /* LaunchScreen.storyboard */; };
 		667A10231D376F6900E65694 /* NSOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A10221D376F6900E65694 /* NSOperationDemoTests.m */; };
 		667A102E1D376F6900E65694 /* NSOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A102D1D376F6900E65694 /* NSOperationDemoUITests.m */; };
+		667A103D1D37714A00E65694 /* NonConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A103C1D37714A00E65694 /* NonConcurrentOperation.m */; };
+		667A10401D377A7B00E65694 /* ConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A103F1D377A7B00E65694 /* ConcurrentOperation.m */; };
+		667A10431D388CAC00E65694 /* ConcurrentOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A10421D388CAC00E65694 /* ConcurrentOperationTest.m */; };
+		667A10461D38DB1A00E65694 /* ConcurrentThreadedOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A10451D38DB1A00E65694 /* ConcurrentThreadedOperation.m */; };
+		667A10491D38E25600E65694 /* ConcurrentThreadedOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A10481D38E25600E65694 /* ConcurrentThreadedOperationTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		667A10291D376F6900E65694 /* NSOperationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOperationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667A102D1D376F6900E65694 /* NSOperationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemoUITests.m; sourceTree = "<group>"; };
 		667A102F1D376F6900E65694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667A103B1D37714A00E65694 /* NonConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonConcurrentOperation.h; sourceTree = "<group>"; };
+		667A103C1D37714A00E65694 /* NonConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonConcurrentOperation.m; sourceTree = "<group>"; };
+		667A103E1D377A7B00E65694 /* ConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentOperation.h; sourceTree = "<group>"; };
+		667A103F1D377A7B00E65694 /* ConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentOperation.m; sourceTree = "<group>"; };
+		667A10411D388CAC00E65694 /* ConcurrentOperationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentOperationTest.h; sourceTree = "<group>"; };
+		667A10421D388CAC00E65694 /* ConcurrentOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentOperationTest.m; sourceTree = "<group>"; };
+		667A10441D38DB1A00E65694 /* ConcurrentThreadedOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentThreadedOperation.h; sourceTree = "<group>"; };
+		667A10451D38DB1A00E65694 /* ConcurrentThreadedOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentThreadedOperation.m; sourceTree = "<group>"; };
+		667A10471D38E25600E65694 /* ConcurrentThreadedOperationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentThreadedOperationTest.h; sourceTree = "<group>"; };
+		667A10481D38E25600E65694 /* ConcurrentThreadedOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentThreadedOperationTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				667A100C1D376F6800E65694 /* AppDelegate.m */,
 				667A100E1D376F6800E65694 /* ViewController.h */,
 				667A100F1D376F6800E65694 /* ViewController.m */,
+				667A103B1D37714A00E65694 /* NonConcurrentOperation.h */,
+				667A103C1D37714A00E65694 /* NonConcurrentOperation.m */,
+				667A103E1D377A7B00E65694 /* ConcurrentOperation.h */,
+				667A103F1D377A7B00E65694 /* ConcurrentOperation.m */,
+				667A10411D388CAC00E65694 /* ConcurrentOperationTest.h */,
+				667A10421D388CAC00E65694 /* ConcurrentOperationTest.m */,
+				667A10441D38DB1A00E65694 /* ConcurrentThreadedOperation.h */,
+				667A10451D38DB1A00E65694 /* ConcurrentThreadedOperation.m */,
+				667A10471D38E25600E65694 /* ConcurrentThreadedOperationTest.h */,
+				667A10481D38E25600E65694 /* ConcurrentThreadedOperationTest.m */,
 				667A10111D376F6900E65694 /* Main.storyboard */,
 				667A10141D376F6900E65694 /* Assets.xcassets */,
 				667A10161D376F6900E65694 /* LaunchScreen.storyboard */,
@@ -269,8 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667A10431D388CAC00E65694 /* ConcurrentOperationTest.m in Sources */,
+				667A10401D377A7B00E65694 /* ConcurrentOperation.m in Sources */,
 				667A10101D376F6800E65694 /* ViewController.m in Sources */,
+				667A10491D38E25600E65694 /* ConcurrentThreadedOperationTest.m in Sources */,
 				667A100D1D376F6800E65694 /* AppDelegate.m in Sources */,
+				667A103D1D37714A00E65694 /* NonConcurrentOperation.m in Sources */,
+				667A10461D38DB1A00E65694 /* ConcurrentThreadedOperation.m in Sources */,
 				667A100A1D376F6800E65694 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +525,7 @@
 				667A10341D376F6900E65694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		667A10351D376F6900E65694 /* Build configuration list for PBXNativeTarget "NSOperationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +534,7 @@
 				667A10371D376F6900E65694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		667A10381D376F6900E65694 /* Build configuration list for PBXNativeTarget "NSOperationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +543,7 @@
 				667A103A1D376F6900E65694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
